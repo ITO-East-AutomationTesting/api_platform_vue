@@ -1,0 +1,11 @@
+/* 改变主题色变量 */
+// $--color-primary: teal;
+
+/* 改变 icon 字体路径变量，必需 */
+$--font-path: '~element-ui/lib/theme-chalk/fonts';
+
+.el-select-dropdown__item {
+    font-family: az_ea_font,'Segoe UI',wf_segoe-ui_semibold,'Segoe UI Semibold','Segoe WP Semibold','Segoe WP',Tahoma,Arial,sans-serif;
+}
+
+@import "~element-ui/packages/theme-chalk/src/index";
